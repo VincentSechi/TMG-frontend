@@ -1,0 +1,26 @@
+@use "@/app/styles/variables/variables" as var;
+
+.header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+
+  .headerContainer {
+    width: 100%;
+    max-width: var.$desktop-max-width;
+    display: flex;
+    padding: var.$desktop-padding;
+  }
+  .brand {
+    color: white;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%;
+    flex: 1;
+    margin: 0 auto;
+  }
+}

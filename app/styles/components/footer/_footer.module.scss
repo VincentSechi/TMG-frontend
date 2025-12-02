@@ -1,0 +1,9 @@
+@use "@/app/styles/variables/variables" as var;
+
+.footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}

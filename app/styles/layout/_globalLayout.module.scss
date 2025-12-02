@@ -1,0 +1,9 @@
+@use "@/app/styles/variables/variables" as var;
+
+.globalLayout{
+    max-width: var.$desktop-max-width;
+    padding: var.$desktop-padding;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
